@@ -16,6 +16,11 @@
 		FAA9A19519D649D100C27D69 /* libEssentialEconomics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA9A17D19D649D100C27D69 /* libEssentialEconomics.a */; };
 		FAA9A19B19D649D100C27D69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA9A19919D649D100C27D69 /* InfoPlist.strings */; };
 		FAA9A19D19D649D100C27D69 /* EssentialEconomicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9A19C19D649D100C27D69 /* EssentialEconomicsTests.m */; };
+		FAA9A1AA19D64DA300C27D69 /* MacroEconomics.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9A1A919D64DA300C27D69 /* MacroEconomics.m */; };
+		FAA9A1AD19D64EFD00C27D69 /* ProductionCost.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9A1AC19D64EFD00C27D69 /* ProductionCost.m */; };
+		FAA9A1B019D64FC200C27D69 /* ElasticDemand.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9A1AF19D64FC200C27D69 /* ElasticDemand.m */; };
+		FAA9A1B319D651D000C27D69 /* ElasticSupply.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9A1B219D651D000C27D69 /* ElasticSupply.m */; };
+		FAA9A1B619D6526200C27D69 /* Elasticity.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9A1B519D6526200C27D69 /* Elasticity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		FAA9A19819D649D100C27D69 /* EssentialEconomicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EssentialEconomicsTests-Info.plist"; sourceTree = "<group>"; };
 		FAA9A19A19D649D100C27D69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAA9A19C19D649D100C27D69 /* EssentialEconomicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EssentialEconomicsTests.m; sourceTree = "<group>"; };
+		FAA9A1A819D64DA300C27D69 /* MacroEconomics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroEconomics.h; sourceTree = "<group>"; };
+		FAA9A1A919D64DA300C27D69 /* MacroEconomics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroEconomics.m; sourceTree = "<group>"; };
+		FAA9A1AB19D64EFD00C27D69 /* ProductionCost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductionCost.h; path = ../ProductionCost.h; sourceTree = "<group>"; };
+		FAA9A1AC19D64EFD00C27D69 /* ProductionCost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductionCost.m; path = ../ProductionCost.m; sourceTree = "<group>"; };
+		FAA9A1AE19D64FC200C27D69 /* ElasticDemand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElasticDemand.h; sourceTree = "<group>"; };
+		FAA9A1AF19D64FC200C27D69 /* ElasticDemand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElasticDemand.m; sourceTree = "<group>"; };
+		FAA9A1B119D651D000C27D69 /* ElasticSupply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElasticSupply.h; sourceTree = "<group>"; };
+		FAA9A1B219D651D000C27D69 /* ElasticSupply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElasticSupply.m; sourceTree = "<group>"; };
+		FAA9A1B419D6526200C27D69 /* Elasticity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Elasticity.h; sourceTree = "<group>"; };
+		FAA9A1B519D6526200C27D69 /* Elasticity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Elasticity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +125,16 @@
 		FAA9A18219D649D100C27D69 /* EssentialEconomics */ = {
 			isa = PBXGroup;
 			children = (
+				FAA9A1B119D651D000C27D69 /* ElasticSupply.h */,
+				FAA9A1B419D6526200C27D69 /* Elasticity.h */,
+				FAA9A1B519D6526200C27D69 /* Elasticity.m */,
+				FAA9A1B219D651D000C27D69 /* ElasticSupply.m */,
+				FAA9A1AE19D64FC200C27D69 /* ElasticDemand.h */,
+				FAA9A1AF19D64FC200C27D69 /* ElasticDemand.m */,
+				FAA9A1AB19D64EFD00C27D69 /* ProductionCost.h */,
+				FAA9A1AC19D64EFD00C27D69 /* ProductionCost.m */,
+				FAA9A1A819D64DA300C27D69 /* MacroEconomics.h */,
+				FAA9A1A919D64DA300C27D69 /* MacroEconomics.m */,
 				FAA9A18519D649D100C27D69 /* EssentialEconomics.h */,
 				FAA9A18719D649D100C27D69 /* EssentialEconomics.m */,
 				FAA9A18319D649D100C27D69 /* Supporting Files */,
@@ -224,7 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA9A1B319D651D000C27D69 /* ElasticSupply.m in Sources */,
+				FAA9A1B019D64FC200C27D69 /* ElasticDemand.m in Sources */,
 				FAA9A18819D649D100C27D69 /* EssentialEconomics.m in Sources */,
+				FAA9A1AD19D64EFD00C27D69 /* ProductionCost.m in Sources */,
+				FAA9A1B619D6526200C27D69 /* Elasticity.m in Sources */,
+				FAA9A1AA19D64DA300C27D69 /* MacroEconomics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +439,7 @@
 				FAA9A1A219D649D100C27D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA9A1A319D649D100C27D69 /* Build configuration list for PBXNativeTarget "EssentialEconomicsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +448,7 @@
 				FAA9A1A519D649D100C27D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
