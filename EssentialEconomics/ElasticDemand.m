@@ -9,21 +9,38 @@
 #import "ElasticDemand.h"
 
 @implementation ElasticDemand
--(double) PriceElasticDemand: (double)ChangeQuantityDemand: (double)ChangeInPrice{
+
+/**
+ *
+ * @param ChgQuantityDemand: Change in quantity demanded
+ * @param ChgPrice: Change in price
+ * @return change in quantity demanded / change in price
+ */
+-(double) PriceElasticDemand: (double)ChangeQuantityDemand: (double)ChangeInPrice
+{
     return ChangeQuantityDemand / ChangeInPrice;
-
 }
--(double) IncomeElasticDemand: (double)ChangeQuantityDemand: (double)ChangeInPrice{
-    
+
+/**
+ *
+ * @param ChgQuantityDemand: Change in quantity demanded
+ * @param ChgPrice: Change in price
+ * @return change in quantity demanded / change in price
+ */
+-(double) IncomeElasticDemand: (double)ChangeQuantityDemand: (double)ChangeInPrice
+{
     return ChangeQuantityDemand / ChangeInPrice;
 }
--(double) CrossElasticDemand: (double)ChangeQuantityDemand: (double)ChangeInPrice{
+
+/**
+ *
+ * @param ChgQuantityDemand: Change in quantity demanded
+ * @param ChgPrice: Change in price
+ * @return change in quantity demanded / change in price
+ */
+-(double) CrossElasticDemand: (double)ChangeQuantityDemand: (double)ChangeInPrice
+{
     return ChangeQuantityDemand / ChangeInPrice;
-
 }
-
-
-
-
 
 @end

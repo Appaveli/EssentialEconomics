@@ -9,24 +9,64 @@
 #import "ProductionCost.h"
 
 @implementation ProductionCost
--(double)Profit:(double)cost :(double)revenue{
+/**
+ *
+ * @param cost
+ * @param revenue
+ * @return cost - revenue
+ */
+-(double)Profit:(double)cost :(double)revenue
+{
     return cost - revenue;
-    
 }
-
--(double)interestRate:(double)interestPaid :(double)priceOfBone{
-    return interestPaid / priceOfBone;
+/**
+ *
+ * @param InterestPaid: The Interest Paid
+ * @param PriceOfBond: The price of bond
+ * @return  the interest paid / The price of bond
+ */
+-(double)interestRate:(double)interestPaid :(double)priceOfBond
+{
+    return interestPaid / priceOfBond;
 }
--(double)excessReserves:(double)actualReserves :(double)requiredReserves{
+/**
+ *
+ * @param ActualReserves: The actual reserves
+ * @param RequiredReserves: The required reserves
+ * @return The actual reserves - The required reserves
+ */
+-(double)excessReserves:(double)actualReserves :(double)requiredReserves
+{
     return actualReserves - requiredReserves;
 }
--(double)averageFixecCost:(double)fixedCost :(double)output{
+/**
+ *
+ * @param FixedCost: The fixed cost
+ * @param Output: The actual output
+ * @return The fixed cost / the actual output
+ */
+-(double)averageFixecCost:(double)fixedCost :(double)output
+{
     return fixedCost / output;
 }
--(double)averageTotalCost:(double)totalCost :(double)output{
+/**
+ *
+ * @param TotalCost: The total cost
+ * @param Output: The actual output
+ * @return The total cost / The actual output
+ */
+-(double)averageTotalCost:(double)totalCost :(double)output
+{
     return totalCost / output;
 }
--(double)averageVariableCost:(double)variableCost :(double)output{
+/**
+ *
+ * @param VariableCost: The variable cost
+ * @param Output: The actual output
+ * @return The variable cost / The actual output
+ */
+-(double)averageVariableCost:(double)variableCost :(double)output
+{
     return variableCost / output;
 }
 

@@ -9,6 +9,13 @@
 #import "ElasticSupply.h"
 
 @implementation ElasticSupply
+
+/**
+ *
+ * @param ChgQuantitySupply: Change in quantity supply
+ * @param ChgPrice: Change in price
+ * @return Change in quantity supply  / Change in price
+ */
 -(double) PriceElasticSupply: (double)ChangeQuantitySupply: (double)ChangeInPrice
 {
 

@@ -10,7 +10,7 @@
 
 @interface ProductionCost : NSObject
 -(double)Profit: (double) cost:(double)revenue;
--(double)interestRate: (double) interestPaid: (double)priceOfBone;
+-(double)interestRate: (double) interestPaid: (double)priceOfBond;
 -(double)excessReserves: (double) actualReserves:(double)requiredReserves;
 -(double)averageFixecCost: (double) fixedCost: (double) output;
 -(double)averageTotalCost: (double) totalCost: (double) output;
