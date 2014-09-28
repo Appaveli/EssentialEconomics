@@ -21,6 +21,4 @@
 
     return ChangeQuantitySupply / ChangeInPrice;
 }
-
-
 @end
